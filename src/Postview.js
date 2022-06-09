@@ -12,7 +12,7 @@ import axios from 'axios';
 const Postview=()=> {
 const [posts,setPosts]=useState([]);
 const setPostsAsync=async()=> {
-  axios.get("https://instaclone-server-app.herokuapp.com/api/v1/post")
+  axios.get("https://instaclone-backend-app.herokuapp.com/api/v1/post")
   .then(response =>{
     console.log("Server",response.data)
 
