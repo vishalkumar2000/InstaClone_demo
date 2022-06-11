@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 // import uploadpost from './upload-post/uploadpost';
 
-
-
 const Postview=()=> {
 const [posts,setPosts]=useState([]);
 const setPostsAsync=async()=> {
