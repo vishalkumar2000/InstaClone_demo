@@ -23,7 +23,7 @@ const Uploads = () => {
         formData.append('description', user.description);
         try {
             const response = await axios.post(
-                'https://instaclone-backend-app.herokuapp.com/api/v1/post',
+                REACT_APP_FRONTEND +"/api/v1/post",
                 // ' https://instaclone-server-app.herokuapp.com',
                 formData
             );
